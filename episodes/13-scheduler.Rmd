@@ -181,7 +181,7 @@ name of a job. Add an option to the script:
 
 ```bash
 `r config$remote$shebang`
-`r config$sched$comment` `r config$sched$flag$name` hello-world
+`r config$sched$comment` `r config$sched$flag$name`hello-world
 
 echo -n "This script is running on "
 hostname
@@ -284,7 +284,7 @@ wall time, and attempt to run a job for two minutes.
 
 ```bash
 `r config$remote$shebang`
-`r config$sched$comment` `r config$sched$flag$name` long_job
+`r config$sched$comment` `r config$sched$flag$name`long_job
 `r config$sched$comment` `r config$sched$flag$time` 00:01 # timeout in HH:MM
 
 echo "This script is running on ... "
@@ -435,7 +435,7 @@ went wrong with a previous job. Fortunately, `r config$sched$name` makes it
 easy to start an interactive job with ``r config$sched$interactive``:
 
 ```bash
-`r config$remote$prompt` `r config$sched$interactive` --pty bash
+`r config$remote$prompt` `r config$sched$interactive` `r config$sched$submit$options` --pty bash
 ```
 
 You should be presented with a bash prompt. Note that the prompt will likely
