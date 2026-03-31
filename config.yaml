@@ -114,6 +114,6 @@ default_config: episodes/files/customization/HPCC_MagicCastle_slurm/_config_opti
 # custom_config: episodes/files/customization/Ghastly_Mistakes/_config_options.yml
 
 carpentry_description: Lesson Description
-url: 'https://unisiegen.github.io/'
+url: 'https://unisiegen.github.io/hpc-intro'
 analytics: carpentries
 lang: en
