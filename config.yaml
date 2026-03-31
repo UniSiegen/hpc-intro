@@ -33,13 +33,13 @@ life_cycle: 'beta'
 license: 'CC-BY 4.0'
 
 # Link to the source repository for this lesson
-source: 'https://github.com/carpentries-incubator/hpc-intro'
+source: 'https://github.com/UniSiegen/hpc-intro'
 
 # Default branch of your lesson
 branch: 'main'
 
 # Who to contact if there are any issues
-contact: 'team@carpentries.org'
+contact: 'mustafa.schmidt@uni-siegen.de'
 
 # Navigation ------------------------------------------------
 #
@@ -114,6 +114,6 @@ default_config: episodes/files/customization/HPCC_MagicCastle_slurm/_config_opti
 # custom_config: episodes/files/customization/Ghastly_Mistakes/_config_options.yml
 
 carpentry_description: Lesson Description
-url: 'https://carpentries-incubator.github.io/hpc-intro/'
+url: 'https://UniSiegen.github.io/'
 analytics: carpentries
 lang: en
