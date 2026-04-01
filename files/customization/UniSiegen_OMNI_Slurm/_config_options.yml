@@ -11,7 +11,7 @@
 # Compute responsibly.
 ---
 
-snippets: "HPCC_MagicCastle_slurm"
+snippets: "UniSiegen_OMNI_Slurm"
 
 local:
   prompt: "[you@laptop:~]$"
