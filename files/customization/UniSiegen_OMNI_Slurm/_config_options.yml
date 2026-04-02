@@ -27,7 +27,7 @@ remote:
   homedir: "/home"
   user: "username"
   module_python3: "Python"
-  prompt: "[username@login02 ~]$"
+  prompt: "[username@hpc-login02 ~]$"
   shebang: "#!/bin/bash"
   modules:
     python: "Python"
