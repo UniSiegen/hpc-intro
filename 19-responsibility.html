@@ -365,7 +365,7 @@
       </div>
       <hr></nav><main id="main-content" class="main-content"><div class="container lesson-content">
         <h1>Using shared resources responsibly</h1>
-        <p>Last updated on 2026-04-01 |
+        <p>Last updated on 2026-04-02 |
 
         <a href="https://github.com/UniSiegen/hpc-intro/edit/main/episodes/19-responsibility.Rmd" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 
@@ -657,18 +657,17 @@ run some tests that you can use to extrapolate how long it will take to
 transfer your data.</p>
 <p>Say you have a “data” folder containing 10,000 or so files, a healthy
 mix of small and large ASCII and binary data. Which of the following
-would be the best way to transfer them to HPC Carpentry’s Cloud
-Cluster?</p>
-<ol style="list-style-type: decimal"><li><p><code>scp -r data yourUsername@cluster.hpc-carpentry.org:~/</code></p></li>
-<li><p><code>rsync -ra data yourUsername@cluster.hpc-carpentry.org:~/</code></p></li>
-<li><p><code>rsync -raz data yourUsername@cluster.hpc-carpentry.org:~/</code></p></li>
+would be the best way to transfer them to OMNI Cluster Siegen?</p>
+<ol style="list-style-type: decimal"><li><p><code>scp -r data username@omni.zimt.uni-siegen.de:~/</code></p></li>
+<li><p><code>rsync -ra data username@omni.zimt.uni-siegen.de:~/</code></p></li>
+<li><p><code>rsync -raz data username@omni.zimt.uni-siegen.de:~/</code></p></li>
 <li>
 <p><code>tar -cvf data.tar data;</code></p>
-<p><code>rsync -raz data.tar yourUsername@cluster.hpc-carpentry.org:~/</code></p>
+<p><code>rsync -raz data.tar username@omni.zimt.uni-siegen.de:~/</code></p>
 </li>
 <li>
 <p><code>tar -cvzf data.tar.gz data;</code></p>
-<p><code>rsync -ra data.tar.gz yourUsername@cluster.hpc-carpentry.org:~/</code></p>
+<p><code>rsync -ra data.tar.gz username@omni.zimt.uni-siegen.de:~/</code></p>
 </li>
 </ol></div>
 </div>
@@ -778,8 +777,8 @@ before transferring.</li>
   "url": "https://unisiegen.github.io/hpc-intro/19-responsibility.html",
   "identifier": "https://unisiegen.github.io/hpc-intro/19-responsibility.html",
   "dateCreated": "2017-03-24",
-  "dateModified": "2026-04-01",
-  "datePublished": "2026-04-01"
+  "dateModified": "2026-04-02",
+  "datePublished": "2026-04-02"
 }
 
   </script><script>

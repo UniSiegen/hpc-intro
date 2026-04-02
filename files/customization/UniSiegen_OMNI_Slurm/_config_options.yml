@@ -18,16 +18,16 @@ local:
   shebang: "#!/bin/bash"
 
 remote:
-  name: "HPC Carpentry's Cloud Cluster"
-  login: "cluster.hpc-carpentry.org"
-  portal: "https://mokey.cluster.hpc-carpentry.org"
-  host: "login1"
+  name: "OMNI Cluster Siegen"
+  login: "omni.zimt.uni-siegen.de"
+  portal: "https://cluster.uni-siegen.de/"
+  host: "hpc-login02"
   node: "smnode1"
   location: "cluster.hpc-carpentry.org"
   homedir: "/home"
-  user: "yourUsername"
+  user: "username"
   module_python3: "Python"
-  prompt: "[yourUsername@login1 ~]$"
+  prompt: "[username@login02 ~]$"
   shebang: "#!/bin/bash"
   modules:
     python: "Python"
@@ -43,7 +43,7 @@ sched:
     testing: "cpubase_bycore_b1"
   status: "squeue"
   flag:
-    user: "-u yourUsername"
+    user: "-u username"
     interactive: ""
     histdetail: "-l -j"
     name: "-J"
@@ -53,7 +53,7 @@ sched:
   interactive: "srun"
   info: "sinfo"
   comment: "#SBATCH"
-  hist: "sacct -u yourUsername"
+  hist: "sacct -u username"
   hist_filter: ""
 
 episode_order:
