@@ -67,6 +67,7 @@ contact: 'mustafa.schmidt@uni-siegen.de'
 episodes:
   - 10-hpc-intro.Rmd
   - 11-connecting.Rmd
+  - 11a-linux-terminal.Rmd
   - 12-cluster.Rmd
   - 13-scheduler.Rmd
   - 14-environment-variables.Rmd
@@ -100,6 +101,9 @@ profiles:
 # For this lesson we use a default configuration which should have all
 # configuration and snippet items referenced in the lesson.
 # (snippets are in a subdirectory alongside the configuraton file)
+# Carpentries Workbench customization directory (relative to episodes/files/customization).
+workbench_base_customization: HPCC_MagicCastle_slurm
+
 default_config: episodes/files/customization/HPCC_MagicCastle_slurm/_config_options.yml
 
 # Optionally, you can then override this default with (a subset of) customized
