@@ -69,6 +69,7 @@ episodes:
   - 11-connecting.Rmd
   - 11a-linux-terminal.Rmd
   - 12-cluster.Rmd
+  - 12a-omni-workspaces.Rmd
   - 13-scheduler.Rmd
   - 14-environment-variables.Rmd
   - 15-modules.Rmd
